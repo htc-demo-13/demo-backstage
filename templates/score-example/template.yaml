@@ -31,6 +31,8 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+            allowedOwners:
+              - htc-demo-13
 
   steps:
     - name: Read Environment
